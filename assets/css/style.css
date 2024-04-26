@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* first section  */
+
+#firstBox {
+    background-color: aqua;
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background-color: bisque;
+    width: 80%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.leftBox {
+    width: 45%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.leftBox h5 {
+    font-size: 13px;
+    font-weight: 300;
+    color: #CCCFD3;
+    cursor: pointer;
+}
+.leftBox h1 {
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+    color:#343F52 ;
+    cursor: pointer;
+}
+.leftBox p {
+    font-size: 20px;
+    font-weight: 100;
+    width: 90%;
+    color:#454951 ;
+    cursor: pointer;
+}
+
+.leftBox .btnBox {
+    background-color: brown;
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    align-items: center;
+}
+
+.leftBox .btnBox button {
+    font-size: 17px;
+    font-weight: 500;
+    padding: 12px 25px;
+    border-radius: 10px;border: 1px solid saddlebrown;
+    color: white;
+    cursor: pointer;
+    background-color: #252D6C;
+}
+.leftBox .btnBox a {
+    font-size: 17px;
+    font-weight: 500;
+    padding: 2px 4px;
+    color: #220D4E;
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: 1px solid #252D6C;
+}
+.rightBox {
+    width: 55%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightBox .imgBox {
+    background-image: url(../IMAGE/api-non-conformance.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+    width: 90%;
+}
